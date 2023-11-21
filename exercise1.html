@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Bootstrap CSS here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add Bootstrap JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Excercise1</title>
+    <style>
+        
+        .container-fluid{
+            background-color: #FF69B4;
+            color: #fff;
+        }
+            .d-flex{
+        flex-direction:column;
+        margin-top:10px;
+        padding-bottom:10%;
+    }
+    img-fluid{
+max-width: 100%;
+}
+</style>
+</head>
+<body>
+    
+     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #EE7644;">
+            <a class="navbar-brand">SOI Learning Portal</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Course 1</a>
+                            <a class="dropdown-item" href="#">Course 2</a>
+                            <a class="dropdown-item" href="#">Course 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exercise1.html">Excercise 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exercise2.html">Excercise2</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-bell"></i><i class="material-icons">more</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-user"></i><img
+                                class="avatar avatar-16 bg-light rounded-circle text-white p-1"
+                                src="https://raw.githubusercontent.com/twbs/icons/main/icons/person.svg"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!-- Add a fluid container so that the hero fills the browser width -->
+     <div class="container-fluid">
+
+       <div class="container">
+
+            <!-- Add a row here that will contain 2 columns -->
+            <div class="row">
+
+                 <!-- Add a column here for text -->
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center">
+                    <!-- Add a heading element here -->
+                    <h1>Life on the High Side</h1>
+
+                    <!-- Add a paragraph of text here -->
+                    <p class="lead">Learn and Xplore.</p>
+
+                    <!-- Add a button here -->
+                    <button type="button" class="btn btn-primary btn-sm">Discover!</button>
+                    </div>
+                </div>
+
+                <!-- Add a column here for the image -->
+                <div class="col-md-6">
+                    <!-- Add your image here -->
+                     <img class="img-fluid" src="Faceexp.png" alt="mylogo" style="border : none ;">
+                </div>
+        </div> 
+    </div> 
+     </div>
+    
+</body>
+
+</html>
+
